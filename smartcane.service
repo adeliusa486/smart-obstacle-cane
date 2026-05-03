@@ -1,0 +1,23 @@
+[Unit]
+Description=Smart Cane Object Detection
+After=network.target sound.target bluetooth.target
+Wants=sound.target bluetooth.target
+
+[Service]
+ExecStartPre=/bin/sleep 15
+ExecStart=/bin/bash /home/pi/start_smartcane.sh
+WorkingDirectory=/home/pi
+StandardOutput=append:/home/pi/smartcane.log
+StandardError=append:/home/pi/smartcane.log
+Restart=on-failure
+RestartSec=15
+StartLimitIntervalSec=0
+User=pi
+Environment=PYTHONUNBUFFERED=1
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+Environment=PULSE_RUNTIME_PATH=/run/user/1000/pulse
+Environment=HOME=/home/pi
+Environment=PATH=/usr/bin:/bin
+
+[Install]
+WantedBy=multi-user.target
