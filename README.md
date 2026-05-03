@@ -185,8 +185,8 @@ The AI model files are not included in this repository because they are too larg
 
 Authors
 
-Adeel Ahmad, Final Year BS Information Technology Student
-Ali Akrama, Final Year BS Information Technology Student
+Adeel Ahmad, BS Information Technology Student
+Ali Akrama,  BS Information Technology Student
 Department of Information Technology
 
 
