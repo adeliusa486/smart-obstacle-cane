@@ -12,16 +12,16 @@ The cane uses a camera to identify objects in front of the user, a laser distanc
   Project Preview
 
  Smart Cane Device
-![Smart Cane](media/full_device.jpg)
+![Smart Cane](media/full_device.jpeg)
 
  Camera and Sensor
-![Camera](media/camera_ir_sensor.jpg)
+![Camera](media/camera_ir_sensor.jpeg)
 
  AI Smart Cane
-![AI Cane](media/ai_smart_cane.jpg)
+![AI Cane](media/ai_smart_cane.jpeg)
 
  Vibration Motor
-![Motor](media/vibration_motor.jpg)
+![Motor](media/vibration_motor.jpeg)
 
 
 
