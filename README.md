@@ -16,8 +16,6 @@ The cane uses a camera to identify objects in front of the user, a laser distanc
 ![AI Cane](media/ai_smart_cane.jpeg)
 ![Motor](media/vibration_motor.jpeg)
 
-
-
 Why We Built This
 
 According to the World Health Organization, over 2.2 billion people worldwide live with some form of visual impairment. In many countries, especially in the Arab world and South Asia, affordable assistive navigation tools are simply not available. Traditional white canes only detect ground-level obstacles through touch and cannot identify what is in front of the user or how far away it is.
