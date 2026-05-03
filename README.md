@@ -9,6 +9,22 @@ This project is a working prototype of a smart assistive cane designed for peopl
 
 The cane uses a camera to identify objects in front of the user, a laser distance sensor to measure how far those objects are, and gives feedback through two channels at the same time. First, it speaks the object name and distance through Bluetooth headphones. Second, it vibrates a motor in different patterns depending on how close the obstacle is. The system runs fully automatically when powered on and does not require a phone, laptop, or any other device to operate.
 
+ Project Preview
+
+### Smart Cane Device
+![Smart Cane](media/full_device.jpg)
+
+### Wiring Setup
+![Ai smart Cane](media/Ai smart cane.jpg)
+
+### Real-world Usage
+![Camera and IR sensor](media/camera and IR sensor.jpg)
+
+### Hardware Components
+![vibration actuator motor](media/vibration actuator motor.jpg)
+
+
+
 
 Why We Built This
 
