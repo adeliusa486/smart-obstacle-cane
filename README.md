@@ -11,7 +11,7 @@ The cane uses a camera to identify objects in front of the user, a laser distanc
 
   Project Preview
 
-![Smart Cane](media/full_device.jpeg)
+!https://github.com/adeliusa486/smart-obstacle-cane/blob/main/media/ai_smart_cane.jpeg.jpeg
 ![Camera](media/camera_ir_sensor.jpeg)
 ![AI Cane](media/ai_smart_cane.jpeg)
 ![Motor](media/vibration_motor.jpeg)
