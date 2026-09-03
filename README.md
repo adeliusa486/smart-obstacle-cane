@@ -12,7 +12,7 @@
 
 **An ultra-low-power, edge-native assistive mobility system combining real-time computer vision, Time-of-Flight distance sensing, and multimodal (haptic + verbal) feedback — operating 100% offline.**
 
-[Overview](#1-project-overview--healthcare-significance) • [Key Capabilities](#2-key-capabilities--engineering-highlights) • [Visual Gallery](#3-physical-prototype--visual-gallery) • [System Architecture](#4-system-architecture--multiprocessing-safety-layer) • [Hardware & Wiring](#5-hardware-bill-of-materials--electrical-wiring) • [Feedback Protocol](#6-multimodal-assistive-feedback-protocol) • [Edge-AI Pipeline](#7-embedded-edge-ai-optimization-pipeline) • [Benchmarks](#8-empirical-evaluation--benchmark-results) • [Failure Analysis](#9-failure-modes--operational-boundaries) • [Installation](#10-installation--deployment-guide) • [Diagnostics](#11-hardware-verification--diagnostics) • [Repository Structure](#12-repository-directory-tree) • [Troubleshooting](#13-troubleshooting--common-issues) • [Citation](#14-academic-citation) • [License](#15-license)
+[Overview](#1-project-overview--healthcare-significance) • [Key Capabilities](#2-key-capabilities--engineering-highlights) • [Visual Gallery](#3-physical-prototype--visual-gallery) • [System Architecture](#4-system-architecture--multiprocessing-safety-layer) • [Hardware & Wiring](#5-hardware-bill-of-materials--electrical-wiring) • [Feedback Protocol](#6-multimodal-assistive-feedback-protocol) • [Edge-AI Pipeline](#7-embedded-edge-ai-optimization-pipeline) • [Benchmarks](#8-empirical-evaluation--benchmark-results) • [Failure Analysis](#9-failure-modes--operational-boundaries) • [Installation](#10-installation--deployment-guide) • [Diagnostics](#11-hardware-verification--diagnostics) • [Repository Structure](#12-repository-directory-tree) • [Troubleshooting](#13-troubleshooting--common-issues) • [Citation](#14-citation) • [License](#15-license)
 
 ---
 
@@ -394,27 +394,29 @@ smart-obstacle-cane/
 
 ---
 
-## 14. Academic Citation
+## 14. Citation
 
-If you use VisionBridge AI, its dataset benchmarks, or its hardware architecture in your research, please cite our conference paper:
+If you use VisionBridge AI, this repository, or its hardware architecture in your work or research, please cite this repository:
 
 ```bibtex
-@inproceedings{akarma2026visionbridge,
-  title     = {An Affordable {AI}-Integrated Smart Cane for Multimodal Mobility Assistance of Visually Impaired Users},
-  author    = {Akarma, Ali and Ahmad, Adeel and Syed, Toqeer Ali},
-  booktitle = {Proceedings of the IEEE International Conference on Assistive Technologies and Edge Intelligence},
-  year      = {2026},
-  address   = {Madinah, Saudi Arabia},
-  note      = {Developed at the AI Center, Islamic University of Madinah, and AI V\&V Lab, KFUPM}
+@misc{smart_obstacle_cane_2026,
+  author       = {Ahmad, Adeel and Akarma, Ali},
+  title        = {VisionBridge AI: An Affordable {AI}-Integrated Smart Cane for Multimodal Mobility Assistance of Visually Impaired Users},
+  year         = {2026},
+  publisher    = {GitHub},
+  journal      = {GitHub repository},
+  howpublished = {\url{https://github.com/adeliusa486/smart-obstacle-cane}}
 }
 ```
 
-### Authors & Affiliations
+### Authors & Repository Developers
+- **Adeel Ahmad** ([443057803@stu.iu.edu.sa](mailto:443057803@stu.iu.edu.sa))  
+  *AI Center, Faculty of Computer and Information Systems, Islamic University of Madinah, Saudi Arabia*
 - **Ali Akarma** ([443059463@stu.iu.edu.sa](mailto:443059463@stu.iu.edu.sa))  
   *AI Center, Faculty of Computer and Information Systems, Islamic University of Madinah, Saudi Arabia*  
   *AI V&V Lab, King Fahd University of Petroleum and Minerals (KFUPM), Dhahran, Saudi Arabia*
-- **Adeel Ahmad** ([443057803@stu.iu.edu.sa](mailto:443057803@stu.iu.edu.sa))  
-  *AI Center, Faculty of Computer and Information Systems, Islamic University of Madinah, Saudi Arabia*
+
+### Academic Supervision
 - **Dr. Toqeer Ali Syed** ([toqeer@iu.edu.sa](mailto:toqeer@iu.edu.sa))  
   *Faculty Supervisor, AI Center, Islamic University of Madinah, Saudi Arabia*
 

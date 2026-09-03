@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository in your research or project, please cite it as below."
+authors:
+  - family-names: "Ahmad"
+    given-names: "Adeel"
+    email: "443057803@stu.iu.edu.sa"
+    affiliation: "AI Center, Faculty of Computer and Information Systems, Islamic University of Madinah"
+  - family-names: "Akarma"
+    given-names: "Ali"
+    email: "443059463@stu.iu.edu.sa"
+    affiliation: "AI Center, Faculty of Computer and Information Systems, Islamic University of Madinah"
+title: "VisionBridge AI: An Affordable AI-Integrated Smart Cane for Multimodal Mobility Assistance of Visually Impaired Users"
+date-released: 2026-09-03
+url: "https://github.com/adeliusa486/smart-obstacle-cane"
+repository-code: "https://github.com/adeliusa486/smart-obstacle-cane"
+license: "MIT"
