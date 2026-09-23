@@ -9,8 +9,11 @@
 [![Peak Power](https://img.shields.io/badge/Power-2.8W%20Peak-orange.svg)]()
 [![BOM Cost](https://img.shields.io/badge/Total%20Cost-~$88%20USD-success.svg)]()
 [![Hackathon](https://img.shields.io/badge/KSCDR%20Hackathon-Team%20101-purple.svg)](https://hackathon.kscdr.org)
+[![Demo Video](https://img.shields.io/badge/Demo-Video%20Demonstration-blueviolet.svg)](https://drive.google.com/file/d/11nU5QLhgGfMg8fa5_PfLVbECC7r9mJ6u/view?usp=sharing)
 
 **An ultra-low-power, edge-native assistive mobility system combining real-time computer vision, Time-of-Flight distance sensing, and multimodal (haptic + verbal) feedback — operating 100% offline.**
+
+[English](README.md) • [العربية](README.ar.md) • [📹 Watch Demo Video](https://drive.google.com/file/d/11nU5QLhgGfMg8fa5_PfLVbECC7r9mJ6u/view?usp=sharing)
 
 [Overview](#1-project-overview--healthcare-significance) • [Key Capabilities](#2-key-capabilities--engineering-highlights) • [Visual Gallery](#3-physical-prototype--visual-gallery) • [System Architecture](#4-system-architecture--multiprocessing-safety-layer) • [Hardware & Wiring](#5-hardware-bill-of-materials--electrical-wiring) • [Feedback Protocol](#6-multimodal-assistive-feedback-protocol) • [Edge-AI Pipeline](#7-embedded-edge-ai-optimization-pipeline) • [Benchmarks](#8-empirical-evaluation--benchmark-results) • [Failure Analysis](#9-failure-modes--operational-boundaries) • [Installation](#10-installation--deployment-guide) • [Diagnostics](#11-hardware-verification--diagnostics) • [Repository Structure](#12-repository-directory-tree) • [Troubleshooting](#13-troubleshooting--common-issues) • [Citation](#14-citation) • [License](#15-license)
 
@@ -43,6 +46,9 @@ According to the World Health Organization (WHO), over **2.2 billion people** wo
 ## 3. Physical Prototype & Visual Gallery
 
 The hardware platform is integrated onto a standard 120 cm aluminum white cane to preserve familiar mobility dynamics and sweeping techniques without requiring intensive user retraining.
+
+> [!TIP]
+> 📹 **Live Demonstration Video:** Watch the complete physical prototype in action navigating indoor obstacles, elevated hazard alerts, and real-time audio/haptic cues: [VisionBridge AI Demo Video on Google Drive](https://drive.google.com/file/d/11nU5QLhgGfMg8fa5_PfLVbECC7r9mJ6u/view?usp=sharing).
 
 <div align="center">
   <img src="media/prototype_composite.jpg" alt="VisionBridge AI Prototype Composite" width="92%" />
@@ -358,7 +364,8 @@ tail -f /home/pi/smartcane.log
 
 ```text
 smart-obstacle-cane/
-├── README.md                   # Comprehensive publication-grade technical documentation
+├── README.md                   # Comprehensive publication-grade technical documentation (English)
+├── README.ar.md                # Comprehensive publication-grade technical documentation (Arabic)
 ├── LICENSE                     # MIT License file
 ├── smartcane.service           # systemd unit for zero-config headless auto-boot
 ├── .gitignore                  # Git tracking exclusion rules
